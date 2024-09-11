@@ -7,13 +7,13 @@ This project is an implementation of the **Universal Asynchronous Receiver-Trans
 ## Features
 
 - **8 data bits per transmission (1 byte)**
-- **1 parity bit** (odd or even depending on Bilkent ID)
+- **1 parity bit**
 - **1 stop bit**
 - Configurable baud rate
 - **Transmit and Receive Buffers (TXBUF and RXBUF)** for storing incoming and outgoing data
 - **FIFO structure** for handling multiple bytes of data
 - **7-segment display** integration for visualizing data in memory
-- Support for **automatic data transfer** (transmit 4 bytes at once)
+- Support for **automatic data transfer** that transmits 4 bytes at once
 
 ## Project Stages
 
